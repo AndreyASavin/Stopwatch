@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Секундомер</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <div class="container">
+        <div class="maintitle">Секундомер</div>
+        <div class="stopwatch">
+            <div class="timeblock">
+                <div class="time hour">00</div>
+                <div class="title">h</div>
+            </div>
+            <div class="dots">:</div>
+            <div class="timeblock">
+                <div class="time min">00</div>
+                <div class="title">min</div>
+            </div>
+            <div class="dots">:</div>
+            <div class="timeblock">
+                <div class="time sec">00</div>
+                <div class="title">sec</div>
+            </div>
+            <div class="dots">:</div>
+            <div class="timeblock">
+                <div class="time ms">00</div>
+                <div class="title">ms</div>
+            </div>
+        </div>
+        <div class="actions">
+            <button id="start">Старт</button>
+            <button id="pause">Пауза</button>
+            <button id="round">Круг</button>
+            <button id="stop">Стоп</button>
+        </div>
+    </div>
+    <div class="rounds"></div>
+    <script src="stopwatch.js"></script>
+</body>
+</html>

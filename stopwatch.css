@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    background-color: black;
+}
+.maintitle{
+    color: white;
+    font-size: 1.5rem;
+}
+.container {
+    margin: 100px;
+    text-align: center;
+    width:450px;
+}
+.stopwatch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.timeblock {
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.time {
+    height: 70px;
+    width: 80px;
+    background-color: grey;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.title {
+    width: 80px;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.dots {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.roundelem {
+    color: black;
+    margin-left: 100px;
+    background-color: rgb(107, 106, 107);
+    text-align: center;
+    width: 250px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.krug{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.num{
+    font-size: 1.2rem;
+}
